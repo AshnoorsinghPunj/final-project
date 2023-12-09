@@ -1,0 +1,39 @@
+    <div>
+        <a href="index.html"><img src="./img/logo.png" alt="header logo"></a>
+    </div>
+    <nav>
+        <menu>
+            <li><a href="index.html">Home</a></li> 
+            <li><a href="about.html">About</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li onclick="showLoginForm()">Contact</li>
+            <div id="form">
+                <div id="subform">
+                    <section class="hello">
+                        <div>
+                            <img src="./img/close.png" alt="close" id="closebutton" onclick="closeForm()">
+                        </div>
+                    </section>
+                    <div class="form">
+                        <form class="feedbackForm">
+                            <h2>Contact Us</h2>
+                            <div>
+                                <label for="name">Name *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div>
+                                <label for="emailFeedback">Email *</label>
+                                <input type="email" id="emailFeedback" name="emailFeedback" required placeholder="xyz@gmail.com">
+                            </div>
+                            <div>
+                                <label for="Phonenumber">Phonenumber *</label>
+                                <input type="tel" id="Phonenumber" name="Phonenumber" required placeholder="+1 9747267453">
+                            </div>
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </menu>
+    </nav>
